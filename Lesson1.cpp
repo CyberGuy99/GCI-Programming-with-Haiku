@@ -20,6 +20,6 @@ int main(void)
 		refList.push_back(ref);
 
 	printf("Contents of the home folder: %s\n", path.Path());
-	for(list<entry_ref>:: iterator i = refList.begin(); i!=refList.end(); i++)
-		printf(“\t%s\n”, i->name);
+	for(list<entry_ref>::iterator i = refList.begin(); i!=refList.end(); i++)
+		printf("\t%s\n", i->name);
 }
